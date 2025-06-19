@@ -1,0 +1,47 @@
+# Ecommerce Backend Requirements
+# Node.js Dependencies (from package.json)
+
+# Core Framework
+express@^5.1.0                 # Web framework for Node.js
+
+# Database
+mongoose@^8.15.0               # MongoDB object modeling tool
+
+# Authentication & Security
+bcrypt@^6.0.0                  # Password hashing library
+jsonwebtoken@^9.0.2            # JSON Web Token implementation
+validator@^13.15.0             # String validation library
+
+# File Upload & Cloud Storage
+multer@^1.4.5-lts.2           # Middleware for handling multipart/form-data
+cloudinary@^2.6.1             # Cloud-based image and video management
+
+# Payment Processing
+stripe@^18.1.0                # Stripe payment processing
+razorpay@^2.9.6               # Razorpay payment gateway
+
+# Utilities
+cors@^2.8.5                   # Cross-Origin Resource Sharing middleware
+dotenv@^16.5.0                # Environment variable loader
+
+# Development
+nodemon@^3.1.10               # Development server with auto-restart
+
+# Installation Instructions:
+# 1. Make sure Node.js (v16+) is installed
+# 2. Navigate to Backend directory
+# 3. Run: npm install
+# 4. Create .env file with required environment variables
+# 5. Run: npm run server (for development) or npm start (for production)
+
+# Environment Variables Required:
+# MONGODB_URI=your_mongodb_connection_string
+# JWT_SECRET=your_jwt_secret_key
+# ADMIN_EMAIL=admin_email
+# ADMIN_PASSWORD=admin_password
+# CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+# CLOUDINARY_API_KEY=your_cloudinary_api_key
+# CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+# STRIPE_SECRET_KEY=your_stripe_secret_key (optional)
+# RAZORPAY_KEY_ID=your_razorpay_key_id (optional)
+# RAZORPAY_KEY_SECRET=your_razorpay_key_secret (optional)
