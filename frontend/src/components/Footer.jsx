@@ -24,7 +24,7 @@ const Footer = () => {
                 <p className='text-xl font-medium mb-5'>Contact</p>
                 <ul className='flex flex-col gap-1 text-gray-600' >
                     <li>(+91) 987-6543-210</li>
-                    <li>Vistelle@ecommerce.com</li>
+                    <li>Forever@ecommerce.com</li>
                 </ul>
             </div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div>
             <hr/>
-            <p className='py-5 text-sm text-center'>Copyright 2025 @Vistelle. All Rights Reserved.</p>
+            <p className='py-5 text-sm text-center'>Copyright 2025 @Forever. All Rights Reserved.</p>
         </div>
     </div>
   )
